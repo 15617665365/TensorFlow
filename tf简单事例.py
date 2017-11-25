@@ -4,7 +4,7 @@ import numpy as np
 x_data = np.random.rand(100)
 y_data = x_data * 5 + 4
 
-#构建一个模型
+#构建一个模型 测试
 b = tf.Variable(9.0)
 k = tf.Variable(1.0)
 y = k * x_data + b
